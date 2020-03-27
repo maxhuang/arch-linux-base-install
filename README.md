@@ -3,9 +3,10 @@ Welcome to my guide on how to install a bare bones Arch linux server setup. It i
 * Wired connections (e.g. ethernet)
 * UEFI
 * Intel CPUs (an AMD section will be added in a future revision)
-* 64bit CPUs
 
-By following this guide, the server will be setup with grub, a LUKS encrypted disk with LVM on top, a btrfs filesystem and swap.
+By following this guide, the server will be setup with grub, a LUKS encrypted disk with LVM on top, a btrfs filesystem and swap. If a desktop orientated install is desired, post installation, the general recommendations section of the venerable Arch Wiki (https://wiki.archlinux.org/index.php/General_recommendations) should be consulted.
+
+Note: this guide was written after the base group was replaced by a metapackage of the same name (https://www.archlinux.org/news/base-group-replaced-by-mandatory-base-package-manual-intervention-required/).
 
 # Pre installation
 ## Operating system image
@@ -258,8 +259,8 @@ umount -R /mnt
 ```
 Restart using `reboot`.
 
-# Post reboot
-Under construction.
+# Post installation
+Head to the Arch Wiki for further setup specific customisations.
 
 # Sources
 * https://wiki.archlinux.org/
